@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Kaffe<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="kontakt.html">Contact us</a></li>
+            </ul>
+            <span id="menu-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <form>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number">Number</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
