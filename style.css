@@ -151,3 +151,14 @@ header.show-mobile-menu .navbar .menu-links{
   padding: 9px 18px;
 }
 }
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
