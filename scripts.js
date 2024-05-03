@@ -11,3 +11,14 @@ menuBtn.addEventListener("click", () => {
 closeMenuBtn.addEventListener("click", () => {
     menuBtn.click();
 });
+
+//smooth jump link
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
