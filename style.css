@@ -132,7 +132,9 @@ header.show-mobile-menu .navbar .menu-links{
 }
 
 .hero-section .content{
-  text-align: center;
+  max-height: 100%;
+  margin-bottom: 150px;
+  max-width: 100vh;
 }
 
 .hero-section .content :is(h1, p){
@@ -142,6 +144,8 @@ header.show-mobile-menu .navbar .menu-links{
 .hero-section .content h1{
   font-size: 2.3rem;
   line-height: 60px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .hero-section .content button{
