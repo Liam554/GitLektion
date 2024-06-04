@@ -94,13 +94,15 @@ header.show-mobile-menu .navbar .menu-links{
 
 body{
     
-    background-image: url("meybemeybe.jpg");
+    background-image: url("solid-color-one-colour-single-plain-blue-3840x2160-c-050827-f-24.svg");
     color: #ececec;
     padding: 4rem;
 }
 h1{
     padding-top: 50px;
-
+    padding-left: 40%;
+    text-decoration: underline;
+    text-decoration-color: #C06B3E;
 }
 h2{
     text-align: center;
@@ -140,4 +142,20 @@ h2{
 }
 .product img{
     height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+}
+.product a:link, .product a:visited{
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #C06B3E;
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+.product a:hover{
+    transform: scale(1.1);
 }
